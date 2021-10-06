@@ -1,5 +1,5 @@
 touch /tmp/INSTALLED_PACKAGES
-PACKAGES="nodejs openjdk-11-jdk"
+PACKAGES="openjdk-11-jdk"
 if [ ! "$PACKAGES" == "$(cat /tmp/INSTALLED_PACKAGES)" ]; then
   cd /tmp
   rm -rf notroot
