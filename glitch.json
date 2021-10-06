@@ -1,5 +1,6 @@
 {
-    "start": "java -jar Lavalink.jar",
-    "install": "echo 'running lavalink'"
+    "start": "bash start.sh",
+    "run": "java -jar Lavalink.jar",
+    "install": "echo 'running installation'"
   }
   
